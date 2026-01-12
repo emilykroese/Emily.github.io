@@ -50,4 +50,16 @@ html, body {
     text-align: center;
     z-index: 1000;
     padding: 10px 0;
+
+
+
+
 }
+
+.pr-eview{
+    position: relative; left: 1020px; bottom: -10px;
+    width: 450px; height: 250px;
+    
+}
+
+

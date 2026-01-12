@@ -4,21 +4,29 @@
         return;
     }
 
-    const URL = "my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/rJpJlpaPT/";
 
     // Hier kun je jouw classes aan geluiden en afbeeldingen koppelen
 
     const sounds = {
-        "Mars": new Audio("my_sounds/mars.mp3"),
-        "Snickers": new Audio("my_sounds/snickers.mp3"),
-        "Milkyway": new Audio("my_sounds/milkyway.mp3")
+ 
+        "flash": new Audio("my_sounds/cameraflash.mp3"),
+         "flower": new Audio("my_sounds/flower.mp3"),
+          "heart": new Audio("my_sounds/heart.mp3"),
+           "star": new Audio("my_sounds/star.mp3"),
+           "neutral": new Audio("my_sounds/st.mp3")
+
     };
 
     const images = {
-        "Mars": "my_images/fantasiedierhartje.png",
-        "Snickers": "my_images/snickers.png",
-        "Milkyway": "my_images/milkyway.png",
-        "Neutral": "my_images/neutraal.png"
+        "heart": "my_images/heart.png",
+        
+        "flash": "my_images/flashhh.png",
+        "star": "my_images/star.png",
+        
+        "Neutral": "my_images/bb.png",
+        "flower": "my_images/flower.png",
+        
     };
 
     // ---
@@ -125,3 +133,4 @@
 
     loop();
 })();
+
